@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Const\" />
+    <Folder Include="Enum\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonApi.Database\PersonApi.Database.sqlproj" />
+    <ProjectReference Include="..\PersonApi.Data\PersonApi.Data.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.21.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersonApi.Data\PersonApi.Data.csproj" />
+    <ProjectReference Include="..\PersonApi.Module\PersonApi.Module.csproj" />
+  </ItemGroup>
+
+</Project>
